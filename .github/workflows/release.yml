@@ -14,15 +14,6 @@ jobs:
         uses: actions/checkout@v2
         with:
           submodules: true
-#      - name: GTest download
-#        run: git clone https://github.com/google/googletest.git googletest
-#      - name: GTest compile and install
-#        working-directory: ./googletest
-#        run: |
-#          sudo cmake .
-#          sudo cmake --build . --target install
-#      - name: Boost install
-#        run: sudo apt-get update && sudo apt-get install libboost-test-dev -y
       - name: Project build
         run: |
           cmake . -DPATCH_VERSION=${{ github.run_number }}
@@ -40,9 +31,8 @@ jobs:
           draft: false
           prerelease: false
       - name: Genarate doxygen doc
-         uses: mattnotmitt/doxygen-action@v1.9.5
+         uses: actions/doxygen@latest
          with:
-           working-directory: 'submodule/'
            doxyfile-path: 'docs/Doxygen'
            enable-latex: true
       - name: Upload Release Asset
