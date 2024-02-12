@@ -1,11 +1,11 @@
 cmake_minimum_required(VERSION 3.2)
 
-set(PATCH_VERSION "1" CACHE INTERNAL "Patch version")
+# set(PATCH_VERSION "1" CACHE INTERNAL "Patch version")
 set(PROJECT_VESRION 0.0.${PATCH_VERSION})
 
 project(graphics_editor VERSION ${PROJECT_VESRION})
 
-configure_file(version.h.in version.h)
+# configure_file(version.h.in version.h)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
