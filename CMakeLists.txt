@@ -10,10 +10,6 @@ configure_file(version.h.in version.h)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-target_include_directories(graphics_editor
-    PRIVATE "${CMAKE_BINARY_DIR}"
-)
-
 add_executable(graphics_editor main.cpp
     document.h document.cpp
     graphic_primitive.h graphic_primitive.cpp
