@@ -10,6 +10,13 @@
 #include "square.h"
 #include "triangle.h"
 
+#include "version.h"
+
+int version() {
+    return PROJECT_VERSION_PATCH;
+}
+
+
 /*!
 \file
 \brief
