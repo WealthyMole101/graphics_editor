@@ -30,11 +30,11 @@ jobs:
           release_name: Release ${{ github.run_number }}
           draft: false
           prerelease: false
-      - name: Genarate doxygen doc
-         uses: actions/doxygen@latest
-         with:
-           doxyfile-path: 'docs/Doxygen'
-           enable-latex: true
+      - name: Doxygen Action
+        uses: mattnotmitt/doxygen-action@v1.1.0
+        with:
+          doxyfile-path: ./Doxyfile
+          working-directory: .
       - name: Upload Release Asset
         id: upload-release-asset
         uses: actions/upload-release-asset@v1
