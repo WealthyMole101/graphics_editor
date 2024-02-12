@@ -137,6 +137,7 @@ protected:
 
 };
 
+
 int main()
 {
     graphic_view view;
