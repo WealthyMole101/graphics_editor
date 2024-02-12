@@ -10,6 +10,10 @@ configure_file(version.h.in version.h)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
+target_include_directories(graphics_editor
+    PRIVATE "${CMAKE_BINARY_DIR}"
+)
+
 add_executable(graphics_editor main.cpp
     document.h document.cpp
     graphic_primitive.h graphic_primitive.cpp
@@ -28,3 +32,15 @@ else ()
         #-Wall -Wextra -pedantic -Werror
     )
 endif()
+
+install(TARGETS graphics_editor RUNTIME DESTINATION bin)
+
+set(CPACK_GENERATOR DEB)
+
+set(CPACK_PACKAGE_VERSION_MAJOR "${PROJECT_VERSION_MAJOR}")
+set(CPACK_PACKAGE_VERSION_MINOR "${PROJECT_VERSION_MINOR}")
+set(CPACK_PACKAGE_VERSION_PATCH "${PROJECT_VERSION_PATCH}")
+
+set(CPACK_PACKAGE_CONTACT vbespalov@astralinux.ru)
+
+include(CPack)
