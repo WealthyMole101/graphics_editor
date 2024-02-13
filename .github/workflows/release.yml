@@ -42,8 +42,8 @@ jobs:
       - name: Doxygen Action
         uses: mattnotmitt/doxygen-action@v1.1.0
         with:
-          doxyfile-path: "./Doxyfile"
-          # working-directory: "."
+          doxyfile-path: ./Doxyfile
+          working-directory: .
       #- name: Create .nojekyll
       #  run: sudo touch ${{ inputs.folder }}/.nojekyll
       #  shell: bash
