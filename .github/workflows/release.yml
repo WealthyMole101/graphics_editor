@@ -42,10 +42,17 @@ jobs:
       - name: Doxygen Action
         uses: mattnotmitt/doxygen-action@v1.1.0
         with:
-          doxyfile-path: "./Doxyfile"
-          working-directory: "."
+          doxyfile-path: ./Doxyfile
+          working-directory: .
+      #- name: Create .nojekyll
+      #  run: sudo touch ${{ inputs.folder }}/.nojekyll
+      #  shell: bash
       - name: Deploy Documentation
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          # branch: ${{ inputs.branch }}
+          # folder: ${{ inputs.folder }}
+          # publish_dir: ${{ inputs.folder }}
           publish_dir: ./html
+          
