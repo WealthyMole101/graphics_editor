@@ -1,0 +1,142 @@
+\doxysection{rectangle Class Reference}
+\hypertarget{classrectangle}{}\label{classrectangle}\index{rectangle@{rectangle}}
+
+
+Implementation of a rectangle figure.  
+
+
+
+
+{\ttfamily \#include $<$rectangle.\+h$>$}
+
+Inheritance diagram for rectangle\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classrectangle}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classrectangle_adcff9254e79ae2001d7333e910bfe5ef}\label{classrectangle_adcff9254e79ae2001d7333e910bfe5ef} 
+{\bfseries rectangle} (int x, int y, int width, int heigth)
+\begin{DoxyCompactList}\small\item\em Constructor. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classrectangle_a5b8f4e5fecbbc68d4229581596f5789a}{set\+\_\+line\+\_\+color}} (\mbox{\hyperlink{classgraphic__primitive_a0f10c1ee32f8352d04dc6d38eda26100}{Color}} color) override
+\begin{DoxyCompactList}\small\item\em Set line color. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classrectangle_aab5c2c90afc7171367193d34eaa7abeb}{set\+\_\+background\+\_\+color}} (\mbox{\hyperlink{classgraphic__primitive_a0f10c1ee32f8352d04dc6d38eda26100}{Color}} color) override
+\begin{DoxyCompactList}\small\item\em Set the background color of the shape. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classrectangle_aa3493137c99adb7110b09791581e4b13}{set\+\_\+coordinates}} (int x, int y) override
+\begin{DoxyCompactList}\small\item\em Setting new coordinates for the figure. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classrectangle_a5337a6fe8058087413729c523aadd65d}{draw}} () override
+\begin{DoxyCompactList}\small\item\em Drawing a figure. \end{DoxyCompactList}\item 
+std\+::tuple$<$ int, int $>$ \mbox{\hyperlink{classrectangle_af65255dd80e09c9bccd57ae0163d1691}{get\+\_\+coordinates}} () override
+\begin{DoxyCompactList}\small\item\em Returns the coordinates of a figure. \end{DoxyCompactList}\item 
+\Hypertarget{classrectangle_a1615f4640d7a09a545cc9584b8d2cdf6}\label{classrectangle_a1615f4640d7a09a545cc9584b8d2cdf6} 
+void {\bfseries set\+\_\+geometry} (int width, int heigth)
+\begin{DoxyCompactList}\small\item\em Set rectangle geometry. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{classgraphic__primitive}{graphic\+\_\+primitive}}}
+\begin{DoxyCompactItemize}
+\item 
+{\bfseries graphic\+\_\+primitive} ()
+\begin{DoxyCompactList}\small\item\em Constructor. \end{DoxyCompactList}\item 
+virtual {\bfseries \texorpdfstring{$\sim$}{\string~}graphic\+\_\+primitive} ()
+\begin{DoxyCompactList}\small\item\em Destructor. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Additional Inherited Members}
+\doxysubsection*{Public Types inherited from \mbox{\hyperlink{classgraphic__primitive}{graphic\+\_\+primitive}}}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classgraphic__primitive_a0f10c1ee32f8352d04dc6d38eda26100}\label{classgraphic__primitive_a0f10c1ee32f8352d04dc6d38eda26100} 
+enum class \mbox{\hyperlink{classgraphic__primitive_a0f10c1ee32f8352d04dc6d38eda26100}{Color}} \{ {\bfseries RED}
+, {\bfseries GREEN}
+, {\bfseries BLUE}
+ \}
+\begin{DoxyCompactList}\small\item\em Acceptable colors. \end{DoxyCompactList}\item 
+\Hypertarget{classgraphic__primitive_aa44950aaa14ab2d5766493de7d6a0b59}\label{classgraphic__primitive_aa44950aaa14ab2d5766493de7d6a0b59} 
+enum class \mbox{\hyperlink{classgraphic__primitive_aa44950aaa14ab2d5766493de7d6a0b59}{Type}} \{ {\bfseries CICLE}
+, {\bfseries RECTANGLE}
+, {\bfseries SQUARE}
+, {\bfseries TRIANGLE}
+ \}
+\begin{DoxyCompactList}\small\item\em Acceptable shape types. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Implementation of a rectangle figure. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classrectangle_a5337a6fe8058087413729c523aadd65d}\label{classrectangle_a5337a6fe8058087413729c523aadd65d} 
+\index{rectangle@{rectangle}!draw@{draw}}
+\index{draw@{draw}!rectangle@{rectangle}}
+\doxysubsubsection{\texorpdfstring{draw()}{draw()}}
+{\footnotesize\ttfamily void rectangle\+::draw (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Drawing a figure. 
+
+
+
+Implements \mbox{\hyperlink{classgraphic__primitive_ab4e5a6f6ff984b48b165b6b62547000e}{graphic\+\_\+primitive}}.
+
+\Hypertarget{classrectangle_af65255dd80e09c9bccd57ae0163d1691}\label{classrectangle_af65255dd80e09c9bccd57ae0163d1691} 
+\index{rectangle@{rectangle}!get\_coordinates@{get\_coordinates}}
+\index{get\_coordinates@{get\_coordinates}!rectangle@{rectangle}}
+\doxysubsubsection{\texorpdfstring{get\_coordinates()}{get\_coordinates()}}
+{\footnotesize\ttfamily std\+::tuple$<$ int, int $>$ rectangle\+::get\+\_\+coordinates (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Returns the coordinates of a figure. 
+
+
+
+Implements \mbox{\hyperlink{classgraphic__primitive_aa6bece6061f07730c044d16ff11802b7}{graphic\+\_\+primitive}}.
+
+\Hypertarget{classrectangle_aab5c2c90afc7171367193d34eaa7abeb}\label{classrectangle_aab5c2c90afc7171367193d34eaa7abeb} 
+\index{rectangle@{rectangle}!set\_background\_color@{set\_background\_color}}
+\index{set\_background\_color@{set\_background\_color}!rectangle@{rectangle}}
+\doxysubsubsection{\texorpdfstring{set\_background\_color()}{set\_background\_color()}}
+{\footnotesize\ttfamily void rectangle\+::set\+\_\+background\+\_\+color (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classgraphic__primitive_a0f10c1ee32f8352d04dc6d38eda26100}{Color}}}]{color }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Set the background color of the shape. 
+
+
+
+Implements \mbox{\hyperlink{classgraphic__primitive_a2e9e6b7986f906141ac6cf345a8b1a6e}{graphic\+\_\+primitive}}.
+
+\Hypertarget{classrectangle_aa3493137c99adb7110b09791581e4b13}\label{classrectangle_aa3493137c99adb7110b09791581e4b13} 
+\index{rectangle@{rectangle}!set\_coordinates@{set\_coordinates}}
+\index{set\_coordinates@{set\_coordinates}!rectangle@{rectangle}}
+\doxysubsubsection{\texorpdfstring{set\_coordinates()}{set\_coordinates()}}
+{\footnotesize\ttfamily void rectangle\+::set\+\_\+coordinates (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Setting new coordinates for the figure. 
+
+
+
+Implements \mbox{\hyperlink{classgraphic__primitive_aabb6fc7877b181cbe53163c3424d21c9}{graphic\+\_\+primitive}}.
+
+\Hypertarget{classrectangle_a5b8f4e5fecbbc68d4229581596f5789a}\label{classrectangle_a5b8f4e5fecbbc68d4229581596f5789a} 
+\index{rectangle@{rectangle}!set\_line\_color@{set\_line\_color}}
+\index{set\_line\_color@{set\_line\_color}!rectangle@{rectangle}}
+\doxysubsubsection{\texorpdfstring{set\_line\_color()}{set\_line\_color()}}
+{\footnotesize\ttfamily void rectangle\+::set\+\_\+line\+\_\+color (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classgraphic__primitive_a0f10c1ee32f8352d04dc6d38eda26100}{Color}}}]{color }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Set line color. 
+
+
+
+Implements \mbox{\hyperlink{classgraphic__primitive_a48ed2768a59f5a564073659c4b75c3bb}{graphic\+\_\+primitive}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{rectangle_8h}{rectangle.\+h}}\item 
+rectangle.\+cpp\end{DoxyCompactItemize}

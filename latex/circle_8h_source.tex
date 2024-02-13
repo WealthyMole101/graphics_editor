@@ -1,0 +1,30 @@
+\doxysection{circle.\+h}
+\hypertarget{circle_8h_source}{}\label{circle_8h_source}\mbox{\hyperlink{circle_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#ifndef\ CIRCLE\_H}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#define\ CIRCLE\_H}}
+\DoxyCodeLine{00003\ }
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{graphic__primitive_8h}{graphic\_primitive.h}}"{}}}
+\DoxyCodeLine{00005\ }
+\DoxyCodeLine{00014\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classcircle}{circle}}\ :\ \textcolor{keyword}{public}\ \mbox{\hyperlink{classgraphic__primitive}{graphic\_primitive}}}
+\DoxyCodeLine{00015\ \{}
+\DoxyCodeLine{00016\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00018\ \ \ \ \ \mbox{\hyperlink{classcircle_a72dd05c0c98138957fb7192b989456f0}{circle}}(\textcolor{keywordtype}{int}\ x,\ \textcolor{keywordtype}{int}\ y,\ \textcolor{keywordtype}{int}\ radius);}
+\DoxyCodeLine{00020\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classcircle_ab2a5339954ca06536670be9372e5d181}{set\_line\_color}}(\mbox{\hyperlink{classgraphic__primitive_a0f10c1ee32f8352d04dc6d38eda26100}{Color}}\ color)\ \textcolor{keyword}{override};}
+\DoxyCodeLine{00022\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classcircle_ab741f430afbd31e31f6256d41092d1ef}{set\_background\_color}}(\mbox{\hyperlink{classgraphic__primitive_a0f10c1ee32f8352d04dc6d38eda26100}{Color}}\ color)\ \textcolor{keyword}{override};}
+\DoxyCodeLine{00024\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classcircle_a90d0d439c662203756aa3dd7fc573c7b}{set\_coordinates}}(\textcolor{keywordtype}{int}\ x,\ \textcolor{keywordtype}{int}\ y)\ \textcolor{keyword}{override};}
+\DoxyCodeLine{00026\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classcircle_a7b75f2af355bab4f85ce878d513cccce}{draw}}()\ \textcolor{keyword}{override};}
+\DoxyCodeLine{00028\ \ \ \ \ std::tuple<int,\ int>\ \mbox{\hyperlink{classcircle_a5dbc4e0f96bf7ab9564b1c37b8718fdc}{get\_coordinates}}()\ \textcolor{keyword}{override};}
+\DoxyCodeLine{00030\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classcircle_aed163c24c1be54eedae61887a472642e}{set\_radius}}(\textcolor{keywordtype}{int}\ radius);}
+\DoxyCodeLine{00031\ }
+\DoxyCodeLine{00032\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00033\ \ \ \ \ \mbox{\hyperlink{classgraphic__primitive_a0f10c1ee32f8352d04dc6d38eda26100}{Color}}\ \_line\_color;\ }
+\DoxyCodeLine{00034\ \ \ \ \ \mbox{\hyperlink{classgraphic__primitive_a0f10c1ee32f8352d04dc6d38eda26100}{Color}}\ \_background\_color;\ }
+\DoxyCodeLine{00035\ \ \ \ \ \textcolor{keywordtype}{int}\ \_x;\ }
+\DoxyCodeLine{00036\ \ \ \ \ \textcolor{keywordtype}{int}\ \_y;\ }
+\DoxyCodeLine{00037\ \ \ \ \ \textcolor{keywordtype}{int}\ \_radius;\ }
+\DoxyCodeLine{00038\ \};}
+\DoxyCodeLine{00039\ }
+\DoxyCodeLine{00040\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ CIRCLE\_H}}
+
+\end{DoxyCode}

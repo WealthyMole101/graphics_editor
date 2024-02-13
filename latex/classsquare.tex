@@ -1,0 +1,142 @@
+\doxysection{square Class Reference}
+\hypertarget{classsquare}{}\label{classsquare}\index{square@{square}}
+
+
+Implementation of a square figure.  
+
+
+
+
+{\ttfamily \#include $<$square.\+h$>$}
+
+Inheritance diagram for square\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classsquare}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classsquare_a382c43d2498cddd6405754635ca14bdd}\label{classsquare_a382c43d2498cddd6405754635ca14bdd} 
+{\bfseries square} (int x, int y, int side)
+\begin{DoxyCompactList}\small\item\em Constructor. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classsquare_a72348f137272d73e09dd1bb096312ddf}{set\+\_\+line\+\_\+color}} (\mbox{\hyperlink{classgraphic__primitive_a0f10c1ee32f8352d04dc6d38eda26100}{Color}} color) override
+\begin{DoxyCompactList}\small\item\em Set line color. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classsquare_a3b9780f74b7d92900cf53a0aeb7f3733}{set\+\_\+background\+\_\+color}} (\mbox{\hyperlink{classgraphic__primitive_a0f10c1ee32f8352d04dc6d38eda26100}{Color}} color) override
+\begin{DoxyCompactList}\small\item\em Set the background color of the shape. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classsquare_a20fd6155f90ef8e03885d3be6f3e0dfd}{set\+\_\+coordinates}} (int x, int y) override
+\begin{DoxyCompactList}\small\item\em Setting new coordinates for the figure. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classsquare_a9ba751d3b8d4d053c845335baaa7c7e1}{draw}} () override
+\begin{DoxyCompactList}\small\item\em Drawing a figure. \end{DoxyCompactList}\item 
+std\+::tuple$<$ int, int $>$ \mbox{\hyperlink{classsquare_ac2638f7131e9b0a409c7629f2f7a7d32}{get\+\_\+coordinates}} () override
+\begin{DoxyCompactList}\small\item\em Returns the coordinates of a figure. \end{DoxyCompactList}\item 
+\Hypertarget{classsquare_afbdeb1d8cd520316fd9f3e4aa43b7187}\label{classsquare_afbdeb1d8cd520316fd9f3e4aa43b7187} 
+void {\bfseries set\+\_\+size} (int side)
+\begin{DoxyCompactList}\small\item\em Set square size. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{classgraphic__primitive}{graphic\+\_\+primitive}}}
+\begin{DoxyCompactItemize}
+\item 
+{\bfseries graphic\+\_\+primitive} ()
+\begin{DoxyCompactList}\small\item\em Constructor. \end{DoxyCompactList}\item 
+virtual {\bfseries \texorpdfstring{$\sim$}{\string~}graphic\+\_\+primitive} ()
+\begin{DoxyCompactList}\small\item\em Destructor. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Additional Inherited Members}
+\doxysubsection*{Public Types inherited from \mbox{\hyperlink{classgraphic__primitive}{graphic\+\_\+primitive}}}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classgraphic__primitive_a0f10c1ee32f8352d04dc6d38eda26100}\label{classgraphic__primitive_a0f10c1ee32f8352d04dc6d38eda26100} 
+enum class \mbox{\hyperlink{classgraphic__primitive_a0f10c1ee32f8352d04dc6d38eda26100}{Color}} \{ {\bfseries RED}
+, {\bfseries GREEN}
+, {\bfseries BLUE}
+ \}
+\begin{DoxyCompactList}\small\item\em Acceptable colors. \end{DoxyCompactList}\item 
+\Hypertarget{classgraphic__primitive_aa44950aaa14ab2d5766493de7d6a0b59}\label{classgraphic__primitive_aa44950aaa14ab2d5766493de7d6a0b59} 
+enum class \mbox{\hyperlink{classgraphic__primitive_aa44950aaa14ab2d5766493de7d6a0b59}{Type}} \{ {\bfseries CICLE}
+, {\bfseries RECTANGLE}
+, {\bfseries SQUARE}
+, {\bfseries TRIANGLE}
+ \}
+\begin{DoxyCompactList}\small\item\em Acceptable shape types. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Implementation of a square figure. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classsquare_a9ba751d3b8d4d053c845335baaa7c7e1}\label{classsquare_a9ba751d3b8d4d053c845335baaa7c7e1} 
+\index{square@{square}!draw@{draw}}
+\index{draw@{draw}!square@{square}}
+\doxysubsubsection{\texorpdfstring{draw()}{draw()}}
+{\footnotesize\ttfamily void square\+::draw (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Drawing a figure. 
+
+
+
+Implements \mbox{\hyperlink{classgraphic__primitive_ab4e5a6f6ff984b48b165b6b62547000e}{graphic\+\_\+primitive}}.
+
+\Hypertarget{classsquare_ac2638f7131e9b0a409c7629f2f7a7d32}\label{classsquare_ac2638f7131e9b0a409c7629f2f7a7d32} 
+\index{square@{square}!get\_coordinates@{get\_coordinates}}
+\index{get\_coordinates@{get\_coordinates}!square@{square}}
+\doxysubsubsection{\texorpdfstring{get\_coordinates()}{get\_coordinates()}}
+{\footnotesize\ttfamily std\+::tuple$<$ int, int $>$ square\+::get\+\_\+coordinates (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Returns the coordinates of a figure. 
+
+
+
+Implements \mbox{\hyperlink{classgraphic__primitive_aa6bece6061f07730c044d16ff11802b7}{graphic\+\_\+primitive}}.
+
+\Hypertarget{classsquare_a3b9780f74b7d92900cf53a0aeb7f3733}\label{classsquare_a3b9780f74b7d92900cf53a0aeb7f3733} 
+\index{square@{square}!set\_background\_color@{set\_background\_color}}
+\index{set\_background\_color@{set\_background\_color}!square@{square}}
+\doxysubsubsection{\texorpdfstring{set\_background\_color()}{set\_background\_color()}}
+{\footnotesize\ttfamily void square\+::set\+\_\+background\+\_\+color (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classgraphic__primitive_a0f10c1ee32f8352d04dc6d38eda26100}{Color}}}]{color }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Set the background color of the shape. 
+
+
+
+Implements \mbox{\hyperlink{classgraphic__primitive_a2e9e6b7986f906141ac6cf345a8b1a6e}{graphic\+\_\+primitive}}.
+
+\Hypertarget{classsquare_a20fd6155f90ef8e03885d3be6f3e0dfd}\label{classsquare_a20fd6155f90ef8e03885d3be6f3e0dfd} 
+\index{square@{square}!set\_coordinates@{set\_coordinates}}
+\index{set\_coordinates@{set\_coordinates}!square@{square}}
+\doxysubsubsection{\texorpdfstring{set\_coordinates()}{set\_coordinates()}}
+{\footnotesize\ttfamily void square\+::set\+\_\+coordinates (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Setting new coordinates for the figure. 
+
+
+
+Implements \mbox{\hyperlink{classgraphic__primitive_aabb6fc7877b181cbe53163c3424d21c9}{graphic\+\_\+primitive}}.
+
+\Hypertarget{classsquare_a72348f137272d73e09dd1bb096312ddf}\label{classsquare_a72348f137272d73e09dd1bb096312ddf} 
+\index{square@{square}!set\_line\_color@{set\_line\_color}}
+\index{set\_line\_color@{set\_line\_color}!square@{square}}
+\doxysubsubsection{\texorpdfstring{set\_line\_color()}{set\_line\_color()}}
+{\footnotesize\ttfamily void square\+::set\+\_\+line\+\_\+color (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classgraphic__primitive_a0f10c1ee32f8352d04dc6d38eda26100}{Color}}}]{color }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Set line color. 
+
+
+
+Implements \mbox{\hyperlink{classgraphic__primitive_a48ed2768a59f5a564073659c4b75c3bb}{graphic\+\_\+primitive}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{square_8h}{square.\+h}}\item 
+square.\+cpp\end{DoxyCompactItemize}

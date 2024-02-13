@@ -1,0 +1,9 @@
+/home/runner/work/graphics_editor/graphics_editor/CMakeFiles/graphics_editor.dir
+/home/runner/work/graphics_editor/graphics_editor/CMakeFiles/package.dir
+/home/runner/work/graphics_editor/graphics_editor/CMakeFiles/package_source.dir
+/home/runner/work/graphics_editor/graphics_editor/CMakeFiles/edit_cache.dir
+/home/runner/work/graphics_editor/graphics_editor/CMakeFiles/rebuild_cache.dir
+/home/runner/work/graphics_editor/graphics_editor/CMakeFiles/list_install_components.dir
+/home/runner/work/graphics_editor/graphics_editor/CMakeFiles/install.dir
+/home/runner/work/graphics_editor/graphics_editor/CMakeFiles/install/local.dir
+/home/runner/work/graphics_editor/graphics_editor/CMakeFiles/install/strip.dir
