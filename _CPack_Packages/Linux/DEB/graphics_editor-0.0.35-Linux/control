@@ -4,6 +4,6 @@ Maintainer: vbespalov@astralinux.ru
 Package: graphics_editor
 Priority: optional
 Section: devel
-Version: 0.0.33
+Version: 0.0.35
 Installed-Size: 93
 
