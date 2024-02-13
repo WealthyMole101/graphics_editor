@@ -48,6 +48,3 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          config_file: Doxyfile
-          branch: gh-pages
-          folder: docs/html
