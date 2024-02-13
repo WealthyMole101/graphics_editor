@@ -44,9 +44,9 @@ jobs:
         with:
           doxyfile-path: "./Doxyfile"
           # working-directory: "."
-      - name: Create .nojekyll
-        run: sudo touch ${{ inputs.folder }}/.nojekyll
-        shell: bash
+      #- name: Create .nojekyll
+      #  run: sudo touch ${{ inputs.folder }}/.nojekyll
+      #  shell: bash
       - name: Deploy Documentation
         uses: peaceiris/actions-gh-pages@v3
         with:
@@ -54,5 +54,5 @@ jobs:
           # branch: ${{ inputs.branch }}
           # folder: ${{ inputs.folder }}
           # publish_dir: ${{ inputs.folder }}
-          publish_dir: ./public
+          publish_dir: ./html
           
