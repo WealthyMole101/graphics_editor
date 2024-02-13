@@ -53,3 +53,5 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: ${{ inputs.branch }}
           folder: ${{ inputs.folder }}
+          publish_dir: ${{ inputs.folder }}
+          
