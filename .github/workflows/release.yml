@@ -45,8 +45,10 @@ jobs:
           doxyfile-path: "./Doxyfile"
           working-directory: "."
       - name: Create .nojekyll
-        run: sudo touch ${{ inputs.folder }}/.nojekyll
-        shell: bash
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          run: touch ${{ inputs.folder }}/.nojekyll
+          shell: bash
       - name: Deploy Documentation
         uses: peaceiris/actions-gh-pages@v3
         with:
