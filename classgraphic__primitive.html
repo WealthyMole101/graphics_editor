@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.10.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>graphics_editor: graphic_primitive Class Reference</title>
+<title>My Project: graphic_primitive Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -23,7 +23,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">graphics_editor
+   <div id="projectname">My Project
    </div>
   </td>
  </tr>
@@ -86,41 +86,51 @@ $(function() {
 <div class="dynheader">
 Inheritance diagram for graphic_primitive:</div>
 <div class="dyncontent">
- <div class="center">
-  <img src="classgraphic__primitive.png" usemap="#graphic_5Fprimitive_map" alt=""/>
-  <map id="graphic_5Fprimitive_map" name="graphic_5Fprimitive_map">
-<area href="classcircle.html" title="Implementation of a circle figure." alt="circle" shape="rect" coords="0,56,109,80"/>
-<area href="classrectangle.html" title="Implementation of a rectangle figure." alt="rectangle" shape="rect" coords="119,56,228,80"/>
-<area href="classsquare.html" title="Implementation of a square figure." alt="square" shape="rect" coords="238,56,347,80"/>
-<area href="classtriangle.html" title="Implementation of a triangle figure." alt="triangle" shape="rect" coords="357,56,466,80"/>
-  </map>
-</div></div>
+<div class="center"><img src="classgraphic__primitive__inherit__graph.png" border="0" usemap="#agraphic__primitive_inherit__map" alt="Inheritance graph"/></div>
+<map name="agraphic__primitive_inherit__map" id="agraphic__primitive_inherit__map">
+<area shape="rect" title="Interface for graphic primitives." alt="" coords="279,5,437,191"/>
+<area shape="rect" href="classcircle.html" title="Implementation of a circle figure." alt="" coords="5,239,164,424"/>
+<area shape="poly" title=" " alt="" coords="268,167,177,241,165,251,162,247,174,237,265,163"/>
+<area shape="rect" href="classrectangle.html" title="Implementation of a rectangle figure." alt="" coords="188,239,347,424"/>
+<area shape="poly" title=" " alt="" coords="319,206,306,240,301,238,314,204"/>
+<area shape="rect" href="classsquare.html" title="Implementation of a square figure." alt="" coords="371,239,529,424"/>
+<area shape="poly" title=" " alt="" coords="402,203,416,238,411,240,397,205"/>
+<area shape="rect" href="classtriangle.html" title="Implementation of a triangle figure." alt="" coords="553,239,712,424"/>
+<area shape="poly" title=" " alt="" coords="451,162,544,237,555,247,552,251,540,241,448,167"/>
+</map>
+</div>
+<div class="dynheader">
+Collaboration diagram for graphic_primitive:</div>
+<div class="dyncontent">
+<div class="center"><img src="classgraphic__primitive__coll__graph.png" border="0" usemap="#agraphic__primitive_coll__map" alt="Collaboration graph"/></div>
+<map name="agraphic__primitive_coll__map" id="agraphic__primitive_coll__map">
+<area shape="rect" title="Interface for graphic primitives." alt="" coords="5,5,164,191"/>
+</map>
+</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a0f10c1ee32f8352d04dc6d38eda26100" id="r_a0f10c1ee32f8352d04dc6d38eda26100"><td class="memItemLeft" align="right" valign="top"><a id="a0f10c1ee32f8352d04dc6d38eda26100" name="a0f10c1ee32f8352d04dc6d38eda26100"></a>enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0f10c1ee32f8352d04dc6d38eda26100">Color</a> { <b>RED</b>
-, <b>GREEN</b>
-, <b>BLUE</b>
+<tr class="memitem:a0f10c1ee32f8352d04dc6d38eda26100" id="r_a0f10c1ee32f8352d04dc6d38eda26100"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0f10c1ee32f8352d04dc6d38eda26100">Color</a> { <a class="el" href="#a0f10c1ee32f8352d04dc6d38eda26100aa2d9547b5d3dd9f05984475f7c926da0">RED</a>
+, <a class="el" href="#a0f10c1ee32f8352d04dc6d38eda26100a9de0e5dd94e861317e74964bed179fa0">GREEN</a>
+, <a class="el" href="#a0f10c1ee32f8352d04dc6d38eda26100a1b3e1ee9bff86431dea6b181365ba65f">BLUE</a>
  }</td></tr>
-<tr class="memdesc:a0f10c1ee32f8352d04dc6d38eda26100"><td class="mdescLeft">&#160;</td><td class="mdescRight">Acceptable colors. <br /></td></tr>
+<tr class="memdesc:a0f10c1ee32f8352d04dc6d38eda26100"><td class="mdescLeft">&#160;</td><td class="mdescRight">Acceptable colors.  <a href="#a0f10c1ee32f8352d04dc6d38eda26100">More...</a><br /></td></tr>
 <tr class="separator:a0f10c1ee32f8352d04dc6d38eda26100"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa44950aaa14ab2d5766493de7d6a0b59" id="r_aa44950aaa14ab2d5766493de7d6a0b59"><td class="memItemLeft" align="right" valign="top"><a id="aa44950aaa14ab2d5766493de7d6a0b59" name="aa44950aaa14ab2d5766493de7d6a0b59"></a>enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa44950aaa14ab2d5766493de7d6a0b59">Type</a> { <b>CICLE</b>
-, <b>RECTANGLE</b>
-, <b>SQUARE</b>
-, <b>TRIANGLE</b>
+<tr class="memitem:aa44950aaa14ab2d5766493de7d6a0b59" id="r_aa44950aaa14ab2d5766493de7d6a0b59"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa44950aaa14ab2d5766493de7d6a0b59">Type</a> { <a class="el" href="#aa44950aaa14ab2d5766493de7d6a0b59aa86a265a1477cd4dd3947057e64c9351">CICLE</a>
+, <a class="el" href="#aa44950aaa14ab2d5766493de7d6a0b59a8e8e58fe94ab307a826e087028a7c01a">RECTANGLE</a>
+, <a class="el" href="#aa44950aaa14ab2d5766493de7d6a0b59a12dec4e1f7ec620651b2b95c440ffac0">SQUARE</a>
+, <a class="el" href="#aa44950aaa14ab2d5766493de7d6a0b59a9bcd89070cae224dce305f5011659ef4">TRIANGLE</a>
  }</td></tr>
-<tr class="memdesc:aa44950aaa14ab2d5766493de7d6a0b59"><td class="mdescLeft">&#160;</td><td class="mdescRight">Acceptable shape types. <br /></td></tr>
+<tr class="memdesc:aa44950aaa14ab2d5766493de7d6a0b59"><td class="mdescLeft">&#160;</td><td class="mdescRight">Acceptable shape types.  <a href="#aa44950aaa14ab2d5766493de7d6a0b59">More...</a><br /></td></tr>
 <tr class="separator:aa44950aaa14ab2d5766493de7d6a0b59"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a2a3db778d9aeb68bcbf52a4e1b99bb0a" id="r_a2a3db778d9aeb68bcbf52a4e1b99bb0a"><td class="memItemLeft" align="right" valign="top"><a id="a2a3db778d9aeb68bcbf52a4e1b99bb0a" name="a2a3db778d9aeb68bcbf52a4e1b99bb0a"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>graphic_primitive</b> ()</td></tr>
-<tr class="memdesc:a2a3db778d9aeb68bcbf52a4e1b99bb0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. <br /></td></tr>
+<tr class="memitem:a2a3db778d9aeb68bcbf52a4e1b99bb0a" id="r_a2a3db778d9aeb68bcbf52a4e1b99bb0a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2a3db778d9aeb68bcbf52a4e1b99bb0a">graphic_primitive</a> ()</td></tr>
+<tr class="memdesc:a2a3db778d9aeb68bcbf52a4e1b99bb0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <br /></td></tr>
 <tr class="separator:a2a3db778d9aeb68bcbf52a4e1b99bb0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acfb20f56e02c49a44e97d6530161cd40" id="r_acfb20f56e02c49a44e97d6530161cd40"><td class="memItemLeft" align="right" valign="top"><a id="acfb20f56e02c49a44e97d6530161cd40" name="acfb20f56e02c49a44e97d6530161cd40"></a>
-virtual&#160;</td><td class="memItemRight" valign="bottom"><b>~graphic_primitive</b> ()</td></tr>
-<tr class="memdesc:acfb20f56e02c49a44e97d6530161cd40"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor. <br /></td></tr>
+<tr class="memitem:acfb20f56e02c49a44e97d6530161cd40" id="r_acfb20f56e02c49a44e97d6530161cd40"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acfb20f56e02c49a44e97d6530161cd40">~graphic_primitive</a> ()</td></tr>
+<tr class="memdesc:acfb20f56e02c49a44e97d6530161cd40"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <br /></td></tr>
 <tr class="separator:acfb20f56e02c49a44e97d6530161cd40"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a48ed2768a59f5a564073659c4b75c3bb" id="r_a48ed2768a59f5a564073659c4b75c3bb"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a48ed2768a59f5a564073659c4b75c3bb">set_line_color</a> (<a class="el" href="#a0f10c1ee32f8352d04dc6d38eda26100">Color</a> color)=0</td></tr>
 <tr class="memdesc:a48ed2768a59f5a564073659c4b75c3bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set line color.  <br /></td></tr>
@@ -140,7 +150,114 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><b>~graphic_primitive
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Interface for graphic primitives. </p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+</div><h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="a0f10c1ee32f8352d04dc6d38eda26100" name="a0f10c1ee32f8352d04dc6d38eda26100"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f10c1ee32f8352d04dc6d38eda26100">&#9670;&#160;</a></span>Color</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum class <a class="el" href="#a0f10c1ee32f8352d04dc6d38eda26100">graphic_primitive::Color</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Acceptable colors. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a0f10c1ee32f8352d04dc6d38eda26100aa2d9547b5d3dd9f05984475f7c926da0" name="a0f10c1ee32f8352d04dc6d38eda26100aa2d9547b5d3dd9f05984475f7c926da0"></a>RED&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0f10c1ee32f8352d04dc6d38eda26100a9de0e5dd94e861317e74964bed179fa0" name="a0f10c1ee32f8352d04dc6d38eda26100a9de0e5dd94e861317e74964bed179fa0"></a>GREEN&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0f10c1ee32f8352d04dc6d38eda26100a1b3e1ee9bff86431dea6b181365ba65f" name="a0f10c1ee32f8352d04dc6d38eda26100a1b3e1ee9bff86431dea6b181365ba65f"></a>BLUE&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="aa44950aaa14ab2d5766493de7d6a0b59" name="aa44950aaa14ab2d5766493de7d6a0b59"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa44950aaa14ab2d5766493de7d6a0b59">&#9670;&#160;</a></span>Type</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum class <a class="el" href="#aa44950aaa14ab2d5766493de7d6a0b59">graphic_primitive::Type</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Acceptable shape types. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aa44950aaa14ab2d5766493de7d6a0b59aa86a265a1477cd4dd3947057e64c9351" name="aa44950aaa14ab2d5766493de7d6a0b59aa86a265a1477cd4dd3947057e64c9351"></a>CICLE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa44950aaa14ab2d5766493de7d6a0b59a8e8e58fe94ab307a826e087028a7c01a" name="aa44950aaa14ab2d5766493de7d6a0b59a8e8e58fe94ab307a826e087028a7c01a"></a>RECTANGLE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa44950aaa14ab2d5766493de7d6a0b59a12dec4e1f7ec620651b2b95c440ffac0" name="aa44950aaa14ab2d5766493de7d6a0b59a12dec4e1f7ec620651b2b95c440ffac0"></a>SQUARE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aa44950aaa14ab2d5766493de7d6a0b59a9bcd89070cae224dce305f5011659ef4" name="aa44950aaa14ab2d5766493de7d6a0b59a9bcd89070cae224dce305f5011659ef4"></a>TRIANGLE&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a2a3db778d9aeb68bcbf52a4e1b99bb0a" name="a2a3db778d9aeb68bcbf52a4e1b99bb0a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a3db778d9aeb68bcbf52a4e1b99bb0a">&#9670;&#160;</a></span>graphic_primitive()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">graphic_primitive::graphic_primitive </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Constructor. </p>
+
+</div>
+</div>
+<a id="acfb20f56e02c49a44e97d6530161cd40" name="acfb20f56e02c49a44e97d6530161cd40"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acfb20f56e02c49a44e97d6530161cd40">&#9670;&#160;</a></span>~graphic_primitive()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">graphic_primitive::~graphic_primitive </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Destructor. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
 <a id="ab4e5a6f6ff984b48b165b6b62547000e" name="ab4e5a6f6ff984b48b165b6b62547000e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab4e5a6f6ff984b48b165b6b62547000e">&#9670;&#160;</a></span>draw()</h2>
 
@@ -292,7 +409,7 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><b>~graphic_primitive
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li><a class="el" href="graphic__primitive_8h_source.html">graphic_primitive.h</a></li>
-<li><b>graphic_primitive.cpp</b></li>
+<li><a class="el" href="graphic__primitive_8cpp.html">graphic_primitive.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

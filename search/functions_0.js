@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['circle_0',['circle',['../classcircle.html#a72dd05c0c98138957fb7192b989456f0',1,'circle']]]
+  ['add_5ffigure_0',['add_figure',['../classdocument.html#a7b77c133c8f3c24b29fc5fd6517e8901',1,'document']]]
 ];

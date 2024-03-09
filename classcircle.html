@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.10.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>graphics_editor: circle Class Reference</title>
+<title>My Project: circle Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -23,7 +23,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">graphics_editor
+   <div id="projectname">My Project
    </div>
   </td>
  </tr>
@@ -85,18 +85,28 @@ $(function() {
 <div class="dynheader">
 Inheritance diagram for circle:</div>
 <div class="dyncontent">
- <div class="center">
-  <img src="classcircle.png" usemap="#circle_map" alt=""/>
-  <map id="circle_map" name="circle_map">
-<area href="classgraphic__primitive.html" title="Interface for graphic primitives." alt="graphic_primitive" shape="rect" coords="0,0,109,24"/>
-  </map>
-</div></div>
+<div class="center"><img src="classcircle__inherit__graph.png" border="0" usemap="#acircle_inherit__map" alt="Inheritance graph"/></div>
+<map name="acircle_inherit__map" id="acircle_inherit__map">
+<area shape="rect" title="Implementation of a circle figure." alt="" coords="5,239,164,424"/>
+<area shape="rect" href="classgraphic__primitive.html" title="Interface for graphic primitives." alt="" coords="5,5,164,191"/>
+<area shape="poly" title=" " alt="" coords="87,206,87,239,82,239,82,206"/>
+</map>
+</div>
+<div class="dynheader">
+Collaboration diagram for circle:</div>
+<div class="dyncontent">
+<div class="center"><img src="classcircle__coll__graph.png" border="0" usemap="#acircle_coll__map" alt="Collaboration graph"/></div>
+<map name="acircle_coll__map" id="acircle_coll__map">
+<area shape="rect" title="Implementation of a circle figure." alt="" coords="5,239,164,424"/>
+<area shape="rect" href="classgraphic__primitive.html" title="Interface for graphic primitives." alt="" coords="5,5,164,191"/>
+<area shape="poly" title=" " alt="" coords="87,206,87,239,82,239,82,206"/>
+</map>
+</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a72dd05c0c98138957fb7192b989456f0" id="r_a72dd05c0c98138957fb7192b989456f0"><td class="memItemLeft" align="right" valign="top"><a id="a72dd05c0c98138957fb7192b989456f0" name="a72dd05c0c98138957fb7192b989456f0"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>circle</b> (int x, int y, int radius)</td></tr>
-<tr class="memdesc:a72dd05c0c98138957fb7192b989456f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. <br /></td></tr>
+<tr class="memitem:a72dd05c0c98138957fb7192b989456f0" id="r_a72dd05c0c98138957fb7192b989456f0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a72dd05c0c98138957fb7192b989456f0">circle</a> (int x, int y, int radius)</td></tr>
+<tr class="memdesc:a72dd05c0c98138957fb7192b989456f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <br /></td></tr>
 <tr class="separator:a72dd05c0c98138957fb7192b989456f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab2a5339954ca06536670be9372e5d181" id="r_ab2a5339954ca06536670be9372e5d181"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab2a5339954ca06536670be9372e5d181">set_line_color</a> (<a class="el" href="classgraphic__primitive.html#a0f10c1ee32f8352d04dc6d38eda26100">Color</a> color) override</td></tr>
 <tr class="memdesc:ab2a5339954ca06536670be9372e5d181"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set line color.  <br /></td></tr>
@@ -113,40 +123,66 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a5dbc4e0f96bf7ab9564b1c37b8718fdc" id="r_a5dbc4e0f96bf7ab9564b1c37b8718fdc"><td class="memItemLeft" align="right" valign="top">std::tuple&lt; int, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5dbc4e0f96bf7ab9564b1c37b8718fdc">get_coordinates</a> () override</td></tr>
 <tr class="memdesc:a5dbc4e0f96bf7ab9564b1c37b8718fdc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the coordinates of a figure.  <br /></td></tr>
 <tr class="separator:a5dbc4e0f96bf7ab9564b1c37b8718fdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aed163c24c1be54eedae61887a472642e" id="r_aed163c24c1be54eedae61887a472642e"><td class="memItemLeft" align="right" valign="top"><a id="aed163c24c1be54eedae61887a472642e" name="aed163c24c1be54eedae61887a472642e"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>set_radius</b> (int radius)</td></tr>
-<tr class="memdesc:aed163c24c1be54eedae61887a472642e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set circle radius. <br /></td></tr>
+<tr class="memitem:aed163c24c1be54eedae61887a472642e" id="r_aed163c24c1be54eedae61887a472642e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aed163c24c1be54eedae61887a472642e">set_radius</a> (int radius)</td></tr>
+<tr class="memdesc:aed163c24c1be54eedae61887a472642e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set circle radius.  <br /></td></tr>
 <tr class="separator:aed163c24c1be54eedae61887a472642e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classgraphic__primitive"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classgraphic__primitive')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classgraphic__primitive.html">graphic_primitive</a></td></tr>
-<tr class="memitem:a2a3db778d9aeb68bcbf52a4e1b99bb0a inherit pub_methods_classgraphic__primitive" id="r_a2a3db778d9aeb68bcbf52a4e1b99bb0a"><td class="memItemLeft" align="right" valign="top">
-&#160;</td><td class="memItemRight" valign="bottom"><b>graphic_primitive</b> ()</td></tr>
-<tr class="memdesc:a2a3db778d9aeb68bcbf52a4e1b99bb0a inherit pub_methods_classgraphic__primitive"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. <br /></td></tr>
+<tr class="memitem:a2a3db778d9aeb68bcbf52a4e1b99bb0a inherit pub_methods_classgraphic__primitive" id="r_a2a3db778d9aeb68bcbf52a4e1b99bb0a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphic__primitive.html#a2a3db778d9aeb68bcbf52a4e1b99bb0a">graphic_primitive</a> ()</td></tr>
+<tr class="memdesc:a2a3db778d9aeb68bcbf52a4e1b99bb0a inherit pub_methods_classgraphic__primitive"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <br /></td></tr>
 <tr class="separator:a2a3db778d9aeb68bcbf52a4e1b99bb0a inherit pub_methods_classgraphic__primitive"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acfb20f56e02c49a44e97d6530161cd40 inherit pub_methods_classgraphic__primitive" id="r_acfb20f56e02c49a44e97d6530161cd40"><td class="memItemLeft" align="right" valign="top">
-virtual&#160;</td><td class="memItemRight" valign="bottom"><b>~graphic_primitive</b> ()</td></tr>
-<tr class="memdesc:acfb20f56e02c49a44e97d6530161cd40 inherit pub_methods_classgraphic__primitive"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor. <br /></td></tr>
+<tr class="memitem:acfb20f56e02c49a44e97d6530161cd40 inherit pub_methods_classgraphic__primitive" id="r_acfb20f56e02c49a44e97d6530161cd40"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphic__primitive.html#acfb20f56e02c49a44e97d6530161cd40">~graphic_primitive</a> ()</td></tr>
+<tr class="memdesc:acfb20f56e02c49a44e97d6530161cd40 inherit pub_methods_classgraphic__primitive"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <br /></td></tr>
 <tr class="separator:acfb20f56e02c49a44e97d6530161cd40 inherit pub_methods_classgraphic__primitive"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header pub_types_classgraphic__primitive"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_types_classgraphic__primitive')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="classgraphic__primitive.html">graphic_primitive</a></td></tr>
-<tr class="memitem:a0f10c1ee32f8352d04dc6d38eda26100 inherit pub_types_classgraphic__primitive" id="r_a0f10c1ee32f8352d04dc6d38eda26100"><td class="memItemLeft" align="right" valign="top"><a id="a0f10c1ee32f8352d04dc6d38eda26100" name="a0f10c1ee32f8352d04dc6d38eda26100"></a>enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphic__primitive.html#a0f10c1ee32f8352d04dc6d38eda26100">Color</a> { <b>RED</b>
-, <b>GREEN</b>
-, <b>BLUE</b>
+<tr class="memitem:a0f10c1ee32f8352d04dc6d38eda26100 inherit pub_types_classgraphic__primitive" id="r_a0f10c1ee32f8352d04dc6d38eda26100"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphic__primitive.html#a0f10c1ee32f8352d04dc6d38eda26100">Color</a> { <a class="el" href="classgraphic__primitive.html#a0f10c1ee32f8352d04dc6d38eda26100aa2d9547b5d3dd9f05984475f7c926da0">RED</a>
+, <a class="el" href="classgraphic__primitive.html#a0f10c1ee32f8352d04dc6d38eda26100a9de0e5dd94e861317e74964bed179fa0">GREEN</a>
+, <a class="el" href="classgraphic__primitive.html#a0f10c1ee32f8352d04dc6d38eda26100a1b3e1ee9bff86431dea6b181365ba65f">BLUE</a>
  }</td></tr>
-<tr class="memdesc:a0f10c1ee32f8352d04dc6d38eda26100"><td class="mdescLeft">&#160;</td><td class="mdescRight">Acceptable colors. <br /></td></tr>
+<tr class="memdesc:a0f10c1ee32f8352d04dc6d38eda26100"><td class="mdescLeft">&#160;</td><td class="mdescRight">Acceptable colors.  <a href="classgraphic__primitive.html#a0f10c1ee32f8352d04dc6d38eda26100">More...</a><br /></td></tr>
 <tr class="separator:a0f10c1ee32f8352d04dc6d38eda26100 inherit pub_types_classgraphic__primitive"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa44950aaa14ab2d5766493de7d6a0b59 inherit pub_types_classgraphic__primitive" id="r_aa44950aaa14ab2d5766493de7d6a0b59"><td class="memItemLeft" align="right" valign="top"><a id="aa44950aaa14ab2d5766493de7d6a0b59" name="aa44950aaa14ab2d5766493de7d6a0b59"></a>enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphic__primitive.html#aa44950aaa14ab2d5766493de7d6a0b59">Type</a> { <b>CICLE</b>
-, <b>RECTANGLE</b>
-, <b>SQUARE</b>
-, <b>TRIANGLE</b>
+<tr class="memitem:aa44950aaa14ab2d5766493de7d6a0b59 inherit pub_types_classgraphic__primitive" id="r_aa44950aaa14ab2d5766493de7d6a0b59"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgraphic__primitive.html#aa44950aaa14ab2d5766493de7d6a0b59">Type</a> { <a class="el" href="classgraphic__primitive.html#aa44950aaa14ab2d5766493de7d6a0b59aa86a265a1477cd4dd3947057e64c9351">CICLE</a>
+, <a class="el" href="classgraphic__primitive.html#aa44950aaa14ab2d5766493de7d6a0b59a8e8e58fe94ab307a826e087028a7c01a">RECTANGLE</a>
+, <a class="el" href="classgraphic__primitive.html#aa44950aaa14ab2d5766493de7d6a0b59a12dec4e1f7ec620651b2b95c440ffac0">SQUARE</a>
+, <a class="el" href="classgraphic__primitive.html#aa44950aaa14ab2d5766493de7d6a0b59a9bcd89070cae224dce305f5011659ef4">TRIANGLE</a>
  }</td></tr>
-<tr class="memdesc:aa44950aaa14ab2d5766493de7d6a0b59"><td class="mdescLeft">&#160;</td><td class="mdescRight">Acceptable shape types. <br /></td></tr>
+<tr class="memdesc:aa44950aaa14ab2d5766493de7d6a0b59"><td class="mdescLeft">&#160;</td><td class="mdescRight">Acceptable shape types.  <a href="classgraphic__primitive.html#aa44950aaa14ab2d5766493de7d6a0b59">More...</a><br /></td></tr>
 <tr class="separator:aa44950aaa14ab2d5766493de7d6a0b59 inherit pub_types_classgraphic__primitive"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Implementation of a circle figure. </p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a72dd05c0c98138957fb7192b989456f0" name="a72dd05c0c98138957fb7192b989456f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a72dd05c0c98138957fb7192b989456f0">&#9670;&#160;</a></span>circle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">circle::circle </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>x</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>y</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>radius</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Constructor. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
 <a id="a7b75f2af355bab4f85ce878d513cccce" name="a7b75f2af355bab4f85ce878d513cccce"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7b75f2af355bab4f85ce878d513cccce">&#9670;&#160;</a></span>draw()</h2>
 
@@ -296,9 +332,28 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="aed163c24c1be54eedae61887a472642e" name="aed163c24c1be54eedae61887a472642e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed163c24c1be54eedae61887a472642e">&#9670;&#160;</a></span>set_radius()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void circle::set_radius </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>radius</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set circle radius. </p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li><a class="el" href="circle_8h_source.html">circle.h</a></li>
-<li><b>circle.cpp</b></li>
+<li><a class="el" href="circle_8cpp.html">circle.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

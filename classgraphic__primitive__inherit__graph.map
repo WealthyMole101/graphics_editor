@@ -1,0 +1,11 @@
+<map id="graphic_primitive" name="graphic_primitive">
+<area shape="rect" id="Node000001" title="Interface for graphic primitives." alt="" coords="279,5,437,191"/>
+<area shape="rect" id="Node000002" href="$classcircle.html" title="Implementation of a circle figure." alt="" coords="5,239,164,424"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="268,167,177,241,165,251,162,247,174,237,265,163"/>
+<area shape="rect" id="Node000003" href="$classrectangle.html" title="Implementation of a rectangle figure." alt="" coords="188,239,347,424"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="319,206,306,240,301,238,314,204"/>
+<area shape="rect" id="Node000004" href="$classsquare.html" title="Implementation of a square figure." alt="" coords="371,239,529,424"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="402,203,416,238,411,240,397,205"/>
+<area shape="rect" id="Node000005" href="$classtriangle.html" title="Implementation of a triangle figure." alt="" coords="553,239,712,424"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="451,162,544,237,555,247,552,251,540,241,448,167"/>
+</map>

@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['get_5fcoordinates_0',['get_coordinates',['../classcircle.html#a5dbc4e0f96bf7ab9564b1c37b8718fdc',1,'circle::get_coordinates()'],['../classgraphic__primitive.html#aa6bece6061f07730c044d16ff11802b7',1,'graphic_primitive::get_coordinates()'],['../classrectangle.html#af65255dd80e09c9bccd57ae0163d1691',1,'rectangle::get_coordinates()'],['../classsquare.html#ac2638f7131e9b0a409c7629f2f7a7d32',1,'square::get_coordinates()'],['../classtriangle.html#a195580f17351c0b8e0ada7c4eea2f00b',1,'triangle::get_coordinates()']]],
-  ['graphic_5fprimitive_1',['graphic_primitive',['../classgraphic__primitive.html#a2a3db778d9aeb68bcbf52a4e1b99bb0a',1,'graphic_primitive']]]
+  ['delete_5ffigure_0',['delete_figure',['../classdocument.html#abe5cf31ec41baadc6e0c385ad3c3bb83',1,'document']]],
+  ['document_1',['document',['../classdocument.html#af1a85718219b8da6f1befaac0bf87989',1,'document']]],
+  ['draw_2',['draw',['../classcircle.html#a7b75f2af355bab4f85ce878d513cccce',1,'circle::draw()'],['../classgraphic__primitive.html#ab4e5a6f6ff984b48b165b6b62547000e',1,'graphic_primitive::draw()'],['../classrectangle.html#a5337a6fe8058087413729c523aadd65d',1,'rectangle::draw()'],['../classsquare.html#a9ba751d3b8d4d053c845335baaa7c7e1',1,'square::draw()'],['../classtriangle.html#a232e1c4014ae54a021f4a4cdd1e78954',1,'triangle::draw()']]]
 ];

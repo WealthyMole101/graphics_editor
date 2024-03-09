@@ -1,0 +1,9 @@
+<map id="factory.h" name="factory.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="65,5,136,31"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,79,73,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="92,33,61,69,57,65,88,29"/>
+<area shape="rect" id="Node000003" href="$graphic__primitive_8h.html" title=" " alt="" coords="97,79,226,105"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="112,29,143,65,139,69,108,33"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="137,153,186,178"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="164,105,164,137,159,137,159,105"/>
+</map>

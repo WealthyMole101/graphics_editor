@@ -1,0 +1,8 @@
+<map id="triangle.h" name="triangle.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,79,31"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="17,153,67,178"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="37,33,23,65,19,85,19,104,31,138,26,140,14,105,13,84,18,63,32,30"/>
+<area shape="rect" id="Node000003" href="$graphic__primitive_8h.html" title=" " alt="" coords="29,79,159,105"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="53,30,78,65,74,68,48,33"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="88,106,62,142,58,138,83,103"/>
+</map>

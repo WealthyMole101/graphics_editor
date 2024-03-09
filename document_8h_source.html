@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.10.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>graphics_editor: document.h Source File</title>
+<title>My Project: document.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -23,7 +23,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">graphics_editor
+   <div id="projectname">My Project
    </div>
   </td>
  </tr>
@@ -90,12 +90,12 @@ $(function() { codefold.init(0); });
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="classdocument.html">   15</a></span><span class="keyword">class </span><a class="code hl_class" href="classdocument.html">document</a></div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>{</div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    <a class="code hl_class" href="classdocument.html">document</a>();</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    <span class="keywordtype">void</span> import_doc();</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    <span class="keywordtype">void</span> export_doc();</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    <span class="keywordtype">void</span> add_figure(<a class="code hl_class" href="classgraphic__primitive.html">graphic_primitive</a> *gp);</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    <span class="keywordtype">void</span> delete_figure(<a class="code hl_class" href="classgraphic__primitive.html">graphic_primitive</a> *gp);</div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    std::list&lt;std::shared_ptr&lt;graphic_primitive&gt;&gt; get_figures();</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    <a class="code hl_function" href="classdocument.html#af1a85718219b8da6f1befaac0bf87989">document</a>();</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classdocument.html#ac32cb21cafe6a8e5169dda8a4f0e722d">import_doc</a>();</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classdocument.html#a137c9d7525e967e5f40418e329a0552d">export_doc</a>();</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classdocument.html#a7b77c133c8f3c24b29fc5fd6517e8901">add_figure</a>(std::shared_ptr&lt;graphic_primitive&gt; gp);</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classdocument.html#abe5cf31ec41baadc6e0c385ad3c3bb83">delete_figure</a>(<a class="code hl_class" href="classgraphic__primitive.html">graphic_primitive</a> *gp);</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    std::list&lt;std::shared_ptr&lt;graphic_primitive&gt;&gt; <a class="code hl_function" href="classdocument.html#a9a580a5c570e578210820d806e307ef6">get_figures</a>();</div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="keyword">private</span>:</div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    std::list&lt;std::shared_ptr&lt;graphic_primitive&gt;&gt; _figures;</div>
@@ -104,6 +104,12 @@ $(function() { codefold.init(0); });
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="preprocessor">#endif </span><span class="comment">// DOCUMENT_H</span></div>
 <div class="ttc" id="aclassdocument_html"><div class="ttname"><a href="classdocument.html">document</a></div><div class="ttdef"><b>Definition</b> document.h:16</div></div>
+<div class="ttc" id="aclassdocument_html_a137c9d7525e967e5f40418e329a0552d"><div class="ttname"><a href="classdocument.html#a137c9d7525e967e5f40418e329a0552d">document::export_doc</a></div><div class="ttdeci">void export_doc()</div><div class="ttdef"><b>Definition</b> document.cpp:14</div></div>
+<div class="ttc" id="aclassdocument_html_a7b77c133c8f3c24b29fc5fd6517e8901"><div class="ttname"><a href="classdocument.html#a7b77c133c8f3c24b29fc5fd6517e8901">document::add_figure</a></div><div class="ttdeci">void add_figure(std::shared_ptr&lt; graphic_primitive &gt; gp)</div><div class="ttdef"><b>Definition</b> document.cpp:19</div></div>
+<div class="ttc" id="aclassdocument_html_a9a580a5c570e578210820d806e307ef6"><div class="ttname"><a href="classdocument.html#a9a580a5c570e578210820d806e307ef6">document::get_figures</a></div><div class="ttdeci">std::list&lt; std::shared_ptr&lt; graphic_primitive &gt; &gt; get_figures()</div><div class="ttdef"><b>Definition</b> document.cpp:33</div></div>
+<div class="ttc" id="aclassdocument_html_abe5cf31ec41baadc6e0c385ad3c3bb83"><div class="ttname"><a href="classdocument.html#abe5cf31ec41baadc6e0c385ad3c3bb83">document::delete_figure</a></div><div class="ttdeci">void delete_figure(graphic_primitive *gp)</div><div class="ttdef"><b>Definition</b> document.cpp:24</div></div>
+<div class="ttc" id="aclassdocument_html_ac32cb21cafe6a8e5169dda8a4f0e722d"><div class="ttname"><a href="classdocument.html#ac32cb21cafe6a8e5169dda8a4f0e722d">document::import_doc</a></div><div class="ttdeci">void import_doc()</div><div class="ttdef"><b>Definition</b> document.cpp:9</div></div>
+<div class="ttc" id="aclassdocument_html_af1a85718219b8da6f1befaac0bf87989"><div class="ttname"><a href="classdocument.html#af1a85718219b8da6f1befaac0bf87989">document::document</a></div><div class="ttdeci">document()</div><div class="ttdef"><b>Definition</b> document.cpp:4</div></div>
 <div class="ttc" id="aclassgraphic__primitive_html"><div class="ttname"><a href="classgraphic__primitive.html">graphic_primitive</a></div><div class="ttdoc">Interface for graphic primitives.</div><div class="ttdef"><b>Definition</b> graphic_primitive.h:15</div></div>
 <div class="ttc" id="agraphic__primitive_8h_html"><div class="ttname"><a href="graphic__primitive_8h.html">graphic_primitive.h</a></div></div>
 </div><!-- fragment --></div><!-- contents -->

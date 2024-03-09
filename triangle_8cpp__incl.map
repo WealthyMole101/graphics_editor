@@ -1,0 +1,10 @@
+<map id="triangle.cpp" name="triangle.cpp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,93,31"/>
+<area shape="rect" id="Node000002" href="$triangle_8h.html" title=" " alt="" coords="12,79,86,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="52,31,52,63,46,63,46,31"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="24,226,74,252"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="44,106,30,139,26,158,26,178,38,212,33,213,21,179,20,158,25,137,39,104"/>
+<area shape="rect" id="Node000004" href="$graphic__primitive_8h.html" title=" " alt="" coords="36,153,166,178"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="60,103,85,138,81,142,55,106"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="95,180,69,215,65,212,90,177"/>
+</map>

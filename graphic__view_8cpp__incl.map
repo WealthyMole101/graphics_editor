@@ -1,0 +1,17 @@
+<map id="graphic_view.cpp" name="graphic_view.cpp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="72,5,193,31"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,226,44,252"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="116,34,92,54,69,80,53,114,42,149,30,211,24,210,37,147,48,112,65,78,88,50,113,29"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="222,226,289,252"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="151,29,176,50,200,77,219,111,234,147,252,210,247,212,229,149,214,114,196,81,173,54,148,33"/>
+<area shape="rect" id="Node000004" href="$graphic__view_8h.html" title=" " alt="" coords="79,79,186,105"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="135,31,135,63,130,63,130,31"/>
+<area shape="rect" id="Node000005" href="$document_8h.html" title=" " alt="" coords="88,153,177,178"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="135,105,135,137,130,137,130,105"/>
+<area shape="poly" id="edge5_Node000005_Node000002" title=" " alt="" coords="116,181,57,220,54,215,113,177"/>
+<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="155,177,223,216,220,221,152,181"/>
+<area shape="rect" id="Node000006" href="$graphic__primitive_8h.html" title=" " alt="" coords="68,226,197,252"/>
+<area shape="poly" id="edge7_Node000005_Node000006" title=" " alt="" coords="135,179,135,211,130,211,130,179"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="108,300,157,326"/>
+<area shape="poly" id="edge8_Node000006_Node000007" title=" " alt="" coords="135,252,135,284,130,284,130,252"/>
+</map>
