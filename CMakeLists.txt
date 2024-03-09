@@ -17,7 +17,8 @@ add_executable(graphics_editor main.cpp
     triangle.h triangle.cpp
     square.h square.cpp
     circle.h circle.cpp
-    graphic_view.h graphic_view.cpp)
+    graphic_view.h graphic_view.cpp
+    factory.h factory.cpp)
 
 if (MSVC)
     target_compile_options(graphics_editor PRIVATE

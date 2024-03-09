@@ -16,9 +16,9 @@ void document::export_doc()
     //TODO: создаём или перезаписываем файл. _primitives конвертируем в формат, сохраняем.
 }
 
-void document::add_figure(graphic_primitive *gp)
+void document::add_figure(std::shared_ptr<graphic_primitive> gp)
 {
-    _figures.push_back(std::shared_ptr<graphic_primitive>(gp));
+    _figures.push_back(gp);
 }
 
 void document::delete_figure(graphic_primitive *gp)
