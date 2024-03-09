@@ -5,10 +5,10 @@
 
 graphic_view::graphic_view()
 {
-    _doc = nullptr;
+
 }
 
-void graphic_view::set_document(document* doc)
+void graphic_view::set_document(std::shared_ptr<document> doc)
 {
     _doc = doc;
 }

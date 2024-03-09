@@ -16,15 +16,15 @@ void document::export_doc()
     //TODO: создаём или перезаписываем файл. _primitives конвертируем в формат, сохраняем.
 }
 
-void document::add_figure(graphic_primitive *gp)
+void document::add_figure(std::shared_ptr<graphic_primitive> gp)
 {
-    _figures.push_back(std::shared_ptr<graphic_primitive>(gp));
+    _figures.push_back(gp);
 }
 
-void document::delete_figure(graphic_primitive *gp)
+void document::delete_figure(std::shared_ptr<graphic_primitive> gp)
 {
     auto it = std::find_if(_figures.begin(), _figures.end(),
-                           [&](std::shared_ptr<graphic_primitive> ptr){return ptr.get() == gp;});
+                           [&](std::shared_ptr<graphic_primitive> ptr){return ptr.get() == gp.get();});
     if (it != _figures.end()) {
         delete it->get();
     }

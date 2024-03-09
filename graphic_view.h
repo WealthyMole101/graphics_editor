@@ -14,12 +14,12 @@ class graphic_view
 {
 public:
     graphic_view();
-    void set_document(document* doc);
+    void set_document(std::shared_ptr<document> doc);
     void clear();
 private:
     void draw_document();
 
-    document* _doc;
+    std::shared_ptr<document> _doc;
 };
 
 #endif // GRAPHIC_VIEW_H
