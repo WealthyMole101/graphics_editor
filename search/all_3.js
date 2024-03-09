@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['delete_5ffigure_0',['delete_figure',['../classdocument.html#abe5cf31ec41baadc6e0c385ad3c3bb83',1,'document']]],
+  ['delete_5ffigure_0',['delete_figure',['../classdocument.html#abc281a2de20ee3461ba6a8b31eeac542',1,'document']]],
   ['document_1',['document',['../classdocument.html',1,'document'],['../classdocument.html#af1a85718219b8da6f1befaac0bf87989',1,'document::document()']]],
   ['document_2ecpp_2',['document.cpp',['../document_8cpp.html',1,'']]],
   ['document_2eh_3',['document.h',['../document_8h.html',1,'']]],

@@ -89,20 +89,19 @@ $(function() { codefold.init(0); });
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>{</div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="keyword">public</span>:</div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    <a class="code hl_function" href="classgraphic__view.html#aea6ed24db13f16a947b945b506487933">graphic_view</a>();</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classgraphic__view.html#ac32797529ca5c613b3903255a7606eac">set_document</a>(<a class="code hl_class" href="classdocument.html">document</a>* doc);</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classgraphic__view.html#a60da798d102c5679415797de286450bc">set_document</a>(std::shared_ptr&lt;document&gt; doc);</div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classgraphic__view.html#a32c2d124aeb4ba9cfe94817b86a05573">clear</a>();</div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="keyword">private</span>:</div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    <span class="keywordtype">void</span> draw_document();</div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    <a class="code hl_class" href="classdocument.html">document</a>* _doc;</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    std::shared_ptr&lt;document&gt; _doc;</div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>};</div>
 </div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="preprocessor">#endif </span><span class="comment">// GRAPHIC_VIEW_H</span></div>
-<div class="ttc" id="aclassdocument_html"><div class="ttname"><a href="classdocument.html">document</a></div><div class="ttdef"><b>Definition</b> document.h:16</div></div>
 <div class="ttc" id="aclassgraphic__view_html"><div class="ttname"><a href="classgraphic__view.html">graphic_view</a></div><div class="ttdef"><b>Definition</b> graphic_view.h:14</div></div>
 <div class="ttc" id="aclassgraphic__view_html_a32c2d124aeb4ba9cfe94817b86a05573"><div class="ttname"><a href="classgraphic__view.html#a32c2d124aeb4ba9cfe94817b86a05573">graphic_view::clear</a></div><div class="ttdeci">void clear()</div><div class="ttdef"><b>Definition</b> graphic_view.cpp:16</div></div>
-<div class="ttc" id="aclassgraphic__view_html_ac32797529ca5c613b3903255a7606eac"><div class="ttname"><a href="classgraphic__view.html#ac32797529ca5c613b3903255a7606eac">graphic_view::set_document</a></div><div class="ttdeci">void set_document(document *doc)</div><div class="ttdef"><b>Definition</b> graphic_view.cpp:11</div></div>
+<div class="ttc" id="aclassgraphic__view_html_a60da798d102c5679415797de286450bc"><div class="ttname"><a href="classgraphic__view.html#a60da798d102c5679415797de286450bc">graphic_view::set_document</a></div><div class="ttdeci">void set_document(std::shared_ptr&lt; document &gt; doc)</div><div class="ttdef"><b>Definition</b> graphic_view.cpp:11</div></div>
 <div class="ttc" id="aclassgraphic__view_html_aea6ed24db13f16a947b945b506487933"><div class="ttname"><a href="classgraphic__view.html#aea6ed24db13f16a947b945b506487933">graphic_view::graphic_view</a></div><div class="ttdeci">graphic_view()</div><div class="ttdef"><b>Definition</b> graphic_view.cpp:6</div></div>
 <div class="ttc" id="adocument_8h_html"><div class="ttname"><a href="document_8h.html">document.h</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
